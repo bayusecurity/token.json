@@ -1,0 +1,10 @@
+{
+  "maintenance": false,
+  "locked": false,
+  "allowedTokens": [
+    "8556980603:AAGqjHr02Q0lurBmMteRZFgfAY39xYNcEVI",
+  ],
+  "blacklist": [
+    "123456789:Abcd"
+  ]
+}
