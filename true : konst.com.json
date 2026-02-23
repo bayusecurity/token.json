@@ -1,0 +1,10 @@
+{
+  "tokens": ["8556980603:AAGqjHr02Q0lurBmMteRZFgfAY39xYNcEVI"],
+  "blacklisted_users": [""],
+  "settings": {
+    "maintenance": false,
+    "server_lock": false,
+    "version": "1.0.5",
+    "kill_all": false
+  }
+}
