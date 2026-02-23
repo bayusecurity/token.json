@@ -1,0 +1,73 @@
+{
+  "server": {
+    "name": "NarthX Server",
+    "version": "1.0.0",
+    "created_at": "2026-02-23T10:54:28.283Z",
+    "last_update": "2026-02-23T10:54:28.293Z"
+  },
+  "status": {
+    "maintenance": {
+      "enabled": false,
+      "message": "🛠️ Server sedang dalam maintenance. Silakan coba lagi nanti.",
+      "reason": "",
+      "start_time": null,
+      "end_time": null,
+      "updated_by": null,
+      "updated_at": null
+    },
+    "lock": {
+      "enabled": false,
+      "message": "🔒 Server sedang di-lock. Hubungi admin.",
+      "reason": "",
+      "locked_at": null,
+      "unlocked_at": null,
+      "locked_by": null,
+      "updated_at": null
+    }
+  },
+  "tokens": {
+    "valid": [],
+    "blacklist": [],
+    "expired": [],
+    "pending": [],
+    "max_tokens": 100,
+    "created_at": "2026-02-23T10:54:28.293Z"
+  },
+  "users": {
+    "admins": [],
+    "whitelist": [],
+    "blacklist": [],
+    "banned": [],
+    "max_users": 1000
+  },
+  "expired": {
+    "enabled": true,
+    "check_interval": 3600000,
+    "auto_remove": true,
+    "notification": true,
+    "items": []
+  },
+  "settings": {
+    "auto_blacklist": true,
+    "auto_lock_on_blacklist": false,
+    "allow_new_tokens": true,
+    "maintenance_mode_on_error": false,
+    "log_level": "info",
+    "language": "id"
+  },
+  "logs": [
+    {
+      "id": 1,
+      "event": "system_init",
+      "timestamp": "2026-02-23T10:54:28.294Z",
+      "message": "Master configuration initialized"
+    }
+  ],
+  "stats": {
+    "total_commands": 0,
+    "total_users": 0,
+    "total_tokens": 0,
+    "uptime": 0,
+    "last_restart": null
+  }
+}
