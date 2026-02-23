@@ -3,7 +3,7 @@
     "name": "NarthX Server",
     "version": "1.0.0",
     "created_at": "2026-02-23T10:54:28.283Z",
-    "last_update": "2026-02-23T10:54:28.293Z"
+    "last_update": "2026-02-23T10:54:29.146Z"
   },
   "status": {
     "maintenance": {
@@ -27,7 +27,14 @@
   },
   "tokens": {
     "valid": [],
-    "blacklist": [],
+    "blacklist": [
+      {
+        "value": "6782873825:AAHcyb8Y8a4CPQ6xAzFpQzGJUGkZx5HXiU8",
+        "reason": "Auto-blacklist: invalid",
+        "blacklisted_at": "2026-02-23T10:54:29.145Z",
+        "blacklisted_by": "system"
+      }
+    ],
     "expired": [],
     "pending": [],
     "max_tokens": 100,
@@ -61,6 +68,12 @@
       "event": "system_init",
       "timestamp": "2026-02-23T10:54:28.294Z",
       "message": "Master configuration initialized"
+    },
+    {
+      "id": 2,
+      "event": "token_blacklisted",
+      "timestamp": "2026-02-23T10:54:29.145Z",
+      "message": "Token di-blacklist oleh system: Auto-blacklist: invalid"
     }
   ],
   "stats": {
